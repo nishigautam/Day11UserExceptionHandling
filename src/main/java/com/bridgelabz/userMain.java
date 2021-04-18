@@ -12,6 +12,7 @@ public class userMain {
      */
     public static void main(String[] args) {
         UserValidation userValidation = new UserValidation();
+
         userValidation.isFirstnameValid();
         userValidation.isLastnameValid();
         userValidation.isEmailValid();
