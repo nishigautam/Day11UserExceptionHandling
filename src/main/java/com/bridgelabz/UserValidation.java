@@ -73,7 +73,7 @@ public class UserValidation {
      * @return a with error message to correct the invalid outputs.
      */
     public void isEmailValid() {
-        final String EMAIL_PATTERN = "^[a-zA-Z]+([.][a-zA-Z]+)*[@][a-zA-Z0-9]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2,4})?$";
+        final String EMAIL_PATTERN = "^[A-Za-z0-9+_.]+@[A-Za-z0-9+_.]+$";
 
         try {
             Scanner input = new Scanner(System.in);
